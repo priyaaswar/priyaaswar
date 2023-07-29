@@ -32,6 +32,7 @@ public class DoubleClick {
 		driver.switchTo().alert().accept();
 	
 		driver.quit();
+		System.out.println();
 	}
 	
 }
